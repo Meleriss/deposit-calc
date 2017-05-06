@@ -19,7 +19,7 @@ CTEST(income_test, pod_31_120_aod_min)
 
 	const int result = income_deposit(aod, pod);
 
-	const int expected = 56100;
+	const int expected = 56100.00;
 	ASSERT_EQUAL(expected, result);
 }
 
@@ -30,7 +30,7 @@ CTEST(income_test, pod_31_120_aod_max)
 
 	const int result = income_deposit(aod, pod);
 
-	const int expected = 186430;
+	const int expected = 186430.00;
 	ASSERT_EQUAL(expected, result);
 }
 
@@ -41,7 +41,7 @@ CTEST(income_test, pod_120_240_aod_min)
 
 	const int result = income_deposit(aod, pod);
 
-	const int expected = 45580;
+	const int expected = 45580.00;
 	ASSERT_EQUAL(expected, result);
 }
 
@@ -52,7 +52,7 @@ CTEST(income_test, pod_120_240_aod_max)
 
 	const int result = income_deposit(aod, pod);
 
-	const int expected = 1080000;
+	const int expected = 1080000.00;
 	ASSERT_EQUAL(expected, result);
 }
 
