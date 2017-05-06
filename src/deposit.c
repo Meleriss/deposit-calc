@@ -54,7 +54,7 @@ int income_deposit(int aod, int pod)//Функция расчета дохода
 			return income;
 		}else{
 			income =aod+((aod/100)*15);
-			printf("Сумма вклада на момент окончание срока(+15%%): %.2d\n",income);
+			printf("Сумма вклада на момент окончание срока(+15%%): %d\n",income);
 			return income;
 		}
 	}
